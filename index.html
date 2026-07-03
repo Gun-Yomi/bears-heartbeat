@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f8d9da">
+  <meta name="description" content="A little heartbeat hug, made with love.">
+  <title>Bear's Heartbeat</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page-shell">
+    <div class="ambient ambient-one"></div>
+    <div class="ambient ambient-two"></div>
+
+    <section class="card" aria-labelledby="page-title">
+      <div class="love-note">
+        <span class="tiny-heart" aria-hidden="true">♥</span>
+        <span>A tiny comfort, from me to you</span>
+      </div>
+
+      <div class="bear-wrap" aria-hidden="true">
+        <div class="pulse-ring ring-one"></div>
+        <div class="pulse-ring ring-two"></div>
+        <div class="bear">
+          <div class="ear ear-left"></div>
+          <div class="ear ear-right"></div>
+          <div class="face">
+            <span class="eye eye-left"></span>
+            <span class="eye eye-right"></span>
+            <span class="snout"><i></i></span>
+            <span class="cheek cheek-left"></span>
+            <span class="cheek cheek-right"></span>
+          </div>
+          <div class="bear-heart">♥</div>
+        </div>
+      </div>
+
+      <div class="copy">
+        <p class="eyebrow">FOR MY FAVORITE PERSON</p>
+        <h1 id="page-title">Come feel Bear’s<br><em>heartbeat.</em></h1>
+        <p class="message">When the cramps feel a little loud, let this be a quiet reminder that you’re loved through every moment.</p>
+      </div>
+
+      <button class="heartbeat-button" id="heartbeatButton" type="button" aria-pressed="false">
+        <span class="button-heart" aria-hidden="true">♥</span>
+        <span class="button-label">Feel Bear’s Heartbeat</span>
+        <span class="button-stop">Tap to stop</span>
+      </button>
+
+      <p class="instruction" id="instruction">
+        <span class="phone-icon" aria-hidden="true">▯</span>
+        Press the button, then rest your phone gently against your heart.
+      </p>
+
+      <div class="now-playing" id="nowPlaying" aria-live="polite">
+        <span class="wave" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>
+        <span>Bear’s heart is beating with yours</span>
+      </div>
+
+      <footer>
+        <span>rest easy, sweetheart</span>
+        <span class="footer-heart">♥</span>
+      </footer>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
